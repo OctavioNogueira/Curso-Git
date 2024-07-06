@@ -1,0 +1,36 @@
+Que nossos dias fiquem melhores 👋😎
+
+Você que acaba esquecendo alguns comandos como "EU" , seja Bem-Vindo 
+
+## Primeiros passos a seram feitos no Git
+
+git config --global user.name "Seu Ze"
+git config --global user.email seuze@exemplo.br
+
+## Segundos passos e mais importantes 
+
+git init - Irá iniciar um repositório 
+git add - Vai adicionar esse repositório ao GitHub
+
+git commit -m "Primeiro Commit" - Essa é a parte mais dificil dar um nome ao commit, jamais coloque qualquer coisa ou besteira 
+git branch -M main - Aqui você irá alterar da branch "master" para branch "main" 
+
+git remote add origin - Permite criar, ver e excluir conexões com outros repositórios
+git push -u origin main -  É realizado para efetuar push das alterações locais para o repositório online (GitHub)
+
+git status - Verificar todas as atualizações 
+
+### Após realizar alguma alteração não necessita realizar novamente os mesmos procedimentos.
+
+git add .
+git commit -m "Alteração Realizada"
+git push - (Encaminhar ao GitHub)
+
+#### Outros comandos para realizar 
+
+git pull - É usado para buscar e baixar conteúdo de repositórios remotos
+git clone - Irá clonar um repositório via (http ou ssh)
+git log -  Ele permite que você liste e filtre o histórico do projeto e pesquise alterações específicas
+git checkout -  Permite navegar entre ramificações criadas pelo git branch
+.gitignore - São comparados com nomes de arquivos em seu repositório para determinar se devem ou não ser ignorados
+git reset –hard origin/main - Irá descartar todas as alterações locais na sua branch e definir a branch para o mesmo commit que a branch master remota
