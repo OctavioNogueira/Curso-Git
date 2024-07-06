@@ -1,0 +1,15 @@
+Aprendendo sobre Branch 🌍
+
+# É uma maneira que o git disponibiliza para separar versões do projeto, gerenciar melhor do projeto 
+
+## Criando uma Branch
+
+git branch - Mostra as branches criadas 
+git branch "feature"
+
+git branch -d "feature" (remove a branch)
+git checkout "feature" (Altera de uma branch para outra )
+
+### Unindo branches
+
+git merge "feature"
